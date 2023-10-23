@@ -5,11 +5,11 @@
 }
 /* ../ specifies root file in github */
 
-section:nth-child(1) {
+.section1 {
 	background-color: #ffffff;
 	color: #000000;
 }
-section:nth-child(2) {
+.section2 {
 	background-color: #3300FF;
 	color: #ffffff;
 	padding-bottom: 5vh;
@@ -31,11 +31,6 @@ justify-content: space-between;
 	padding-bottom: 2vh;
 }
 
-@media screen and (max-width: 750px) {
-	.section2body {
-		flex-direction: column;
-	}
-}
 
 
 .readbox {
@@ -59,7 +54,7 @@ display: inline-flex;
 	display: inline-flex;
 	}
 
-section:nth-child(3) {
+.section3 {
 	background-color: #ffffff;
 	color: #000000;
 	text-align: center;
@@ -76,7 +71,7 @@ font-weight: 700;
 text-transform: uppercase;
 }
 
-section:nth-child(4) {
+.section4 {
 	background-color: #e02ce3;
 	color: #ffffff;
 }
@@ -98,11 +93,6 @@ justify-content: space-between;
 	padding-bottom: 2vh;
 }
 
-@media screen and (max-width: 750px) {
-	.section4body {
-		flex-direction: column;
-	}
-}
 
 .headline4{
 font-family: Oi;
@@ -123,7 +113,7 @@ line-height: 100%;
 	font-size: 50px;
 	font-weight: 600;
 }
-section:nth-child(5) {
+.section5 {
 	background-color: #000000;
 	color: #ffffff;
 }
@@ -164,7 +154,7 @@ line-height: 120%;
 text-transform: uppercase;
 }
 
-section:nth-child(6) {
+.section6 {
 	background-color: #ffffff;
 	color: #000000;
 }
@@ -190,7 +180,7 @@ font-size: 12px;
 font-weight: 400;
 }
 
-section:nth-child(7) {
+.section7 {
 	background-color: #216270;
 	color: #ffffff;
 	font-family: Inter;
@@ -241,7 +231,7 @@ section:nth-child(7) {
 	border-color: #ffffff;
 }
 
-section:nth-child(8) {
+.section8 {
 	background-color: #ffffff;
 	color: #000000;
 }
@@ -251,4 +241,16 @@ section:nth-child(8) {
 	font-size: 18px;
 	font-weight: 400;
 	text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+	.section2body {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.section4body {
+		flex-direction: column;
+	}
 }
