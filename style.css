@@ -12,7 +12,6 @@
 .section2 {
 	background-color: #3300FF;
 	color: #ffffff;
-	padding-bottom: 5vh;
 }
 
 .section2body { 	
@@ -22,8 +21,19 @@ font-weight: 400;
 display: flex;
 flex-direction: row;
 max-width: 75vw;
-margin-left: 30vw;
+margin-left: 20vw;
+padding-top: 6vh;
+padding-left: 10vw;
+padding-bottom: 6vh;
 justify-content: space-between;
+border-left: 1px dotted;
+border-color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+	.section2body {
+		margin-left: 30vw;
+	}
 }
 
 .section2body p {
@@ -32,6 +42,11 @@ justify-content: space-between;
 }
 
 
+.reading {
+	border-bottom: 1px solid;
+	border-color: #ffffff;
+	padding-top: 4vh;
+}
 
 .readbox {
 font-family: Pixelify Sans;
@@ -40,19 +55,72 @@ font-weight: 400;
 border: 1px solid;
 border-color: #ffffff;
 padding: 0.5%;
-display: inline-flex;
+display: flex;
+justify-content: right;
+letter-spacing: 0.3ch;
+margin-bottom: 4vh;
+margin-left: 60vw;
 }
 
-.arrows {
+@media screen and (max-width: 659px) {
+	.readbox {
+		display:none;
+	}
+}
+
+.arrows2 {
 	font-family: Pixelify Sans;
 	font-size: 40px;
 	font-weight: 400;
-	padding-right: 0.5%;
-	padding-left: 10.5%;
-	padding-top: 0.5%;
-	padding-bottom: 0.5%;
-	display: inline-flex;
+	margin-bottom: 10vw;
+	padding-right: 1.3vh;;
+	padding-left: 1.3vh;
+	padding-top: 0.5vw;
+	/* border-top: 1px solid;
+	border-color: #ffffff; */
+	position: absolute;
+	top: 27vh; left: 1vw;
+	transform: rotate(90deg);
 	}
+
+	@media screen and (max-width: 300px) {
+		.arrows2 {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 659px) {
+		.arrows2 {
+			font-size: 32px;
+		}
+	}
+	@media screen and (min-width: 660px) {
+		.arrows2 {
+			position: absolute;
+			top: 28vh; left: 2vw;
+		}
+	}
+	@media screen and (min-width: 800px) {
+		.arrows2 {
+			position: absolute;
+			top: 28vh; left: 3vw;
+		}
+	}
+	@media screen and (min-width: 1200px) {
+		.arrows2 {
+			position: absolute;
+			top: 30vh; left: 8vw;
+		}
+	}
+	@media screen and (min-width: 1500px) {
+		.arrows2 {
+			position: absolute;
+			top: 32vh; left: 9vw;
+		}
+	}
+
+
+
+
 
 .section3 {
 	background-color: #ffffff;
@@ -125,6 +193,17 @@ font-weight: 500;
 line-height: 90%;
 text-transform: uppercase;
 }
+
+.arrows5 {
+	font-family: Pixelify Sans;
+	font-size: 40px;
+	font-weight: 400;
+	padding-right: 0.5%;
+	padding-left: 10.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	display: inline-flex;
+	}
 
 .number{
 font-family: Pixelify Sans;
