@@ -5,6 +5,12 @@
 }
 /* ../ specifies root file in github */
 
+body {
+	overflow: hidden;
+	overflow-y: scroll;
+
+}
+
 .section1 {
 	background-color: #ffffff;
 	color: #000000;
@@ -40,6 +46,9 @@ border-color: #ffffff;
 	padding-right: 5vw;
 	padding-bottom: 2vh;
 }
+.section2body em {
+	font-style: italic;
+}
 
 
 .reading {
@@ -59,7 +68,7 @@ display: flex;
 justify-content: right;
 letter-spacing: 0.3ch;
 margin-bottom: 4vh;
-margin-left: 60vw;
+margin-left: 91vw;
 }
 
 @media screen and (max-width: 659px) {
@@ -67,6 +76,22 @@ margin-left: 60vw;
 		display:none;
 	}
 }
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+	.readbox {
+		margin-left: 90vw;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.readbox {
+		margin-left: 85vw;
+	}
+}
+@media screen and (max-width: 780px) {
+	.readbox {
+		margin-left: 80vw;
+	}
+}
+
 
 .arrows2 {
 	font-family: Pixelify Sans;
@@ -76,10 +101,10 @@ margin-left: 60vw;
 	padding-right: 1.3vh;;
 	padding-left: 1.3vh;
 	padding-top: 0.5vw;
-	/* border-top: 1px solid;
-	border-color: #ffffff; */
+	border-top: 1px solid;
+	border-color: #ffffff;
 	position: absolute;
-	top: 27vh; left: 1vw;
+	top: 26vh; left: 1vw;
 	transform: rotate(90deg);
 	}
 
@@ -96,25 +121,25 @@ margin-left: 60vw;
 	@media screen and (min-width: 660px) {
 		.arrows2 {
 			position: absolute;
-			top: 28vh; left: 2vw;
+			top: 26vh; left: 2vw;
 		}
 	}
 	@media screen and (min-width: 800px) {
 		.arrows2 {
 			position: absolute;
-			top: 28vh; left: 3vw;
+			top: 26vh; left: 3vw;
 		}
 	}
 	@media screen and (min-width: 1200px) {
 		.arrows2 {
 			position: absolute;
-			top: 30vh; left: 8vw;
+			top: 26vh; left: 8vw;
 		}
 	}
 	@media screen and (min-width: 1500px) {
 		.arrows2 {
 			position: absolute;
-			top: 32vh; left: 9vw;
+			top: 28vh; left: 9vw;
 		}
 	}
 
@@ -161,6 +186,10 @@ justify-content: space-between;
 	padding-bottom: 2vh;
 }
 
+.section4body strong {
+	font-weight: 700;
+	letter-spacing: 0.1ch;
+}
 
 .headline4{
 font-family: Oi;
@@ -174,12 +203,53 @@ background-clip: text;
 -webkit-text-stroke-width: 3px;
 -webkit-text-stroke-color: black;
 line-height: 100%;
+margin-left: 20vw;
+padding-top: 10vh;
+margin-bottom: 5vh;
+
+}
+
+.headline4_2 {
+font-family: Oi;
+font-size: 100px;
+font-weight: 400;
+text-transform: uppercase;
+background: linear-gradient(180deg, #FFF 0%, #F9C200 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: black;
+line-height: 100%;
+text-align: right;
+margin-top: 3vh;
+padding-bottom: 1vh;
 }
 
 .symbols{
 	font-family: Inter;
 	font-size: 50px;
 	font-weight: 600;
+	position: relative;
+	top: 11vh; left: 20vw;
+	transform: rotate(15deg)
+}
+
+@media screen and (max-width: 660px) {
+	.symbols {
+		position: relative;
+		top: 8vh; left: -1vw;
+		font-size: 32px;
+	}
+	.headline4_2{
+		margin-top: 15vh;
+	}
+}
+@media screen and (min-width: 1700px) {
+	.symbols {
+		position: relative;
+		top: 20vh; left: 20vw;
+	}
 }
 .section5 {
 	background-color: #000000;
@@ -266,6 +336,8 @@ font-weight: 400;
 	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
 }
 
 .section7contentbar {
@@ -277,6 +349,7 @@ font-weight: 400;
 	border-color: black;
 	white-space: nowrap;
 	margin-bottom: 3px;
+	max-width: 100vw
 }
 
 .section7fuckbar {
@@ -290,13 +363,13 @@ font-weight: 400;
 	margin-bottom: 3px;
 }
 
-/* .section7wrap {
+.section7wrap {
 	width: 100%;
 	text-align: justify;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-between;
-} */
+}
 
 .section7body {
 	color: #ffffff;
@@ -322,14 +395,23 @@ font-weight: 400;
 	text-align: center;
 }
 
+.section7wrap {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
 @media screen and (max-width: 750px) {
 	.section2body {
 		flex-direction: column;
 	}
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
 	.section4body {
 		flex-direction: column;
+	}
+	.symbols {
+		position: relative;
+		top: 12vh; left: 2vw;
 	}
 }
