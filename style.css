@@ -220,9 +220,9 @@ margin-left: 91vw;
 	padding-right: 1.3vh;;
 	padding-left: 1.3vh;
 	padding-top: 0.5vw;
-	border-top: 1px solid;
-	border-color: #ffffff;
-	position: absolute;
+	/* border-top: 1px solid;
+	border-color: #ffffff; */
+	position: relative;
 	top: 26vh; left: 1vw;
 	transform: rotate(90deg);
 	}
@@ -240,25 +240,25 @@ margin-left: 91vw;
 	@media screen and (min-width: 660px) {
 		.arrows2 {
 			position: absolute;
-			top: 26vh; left: 2vw;
+			top: 24vh; left: 2vw;
 		}
 	}
 	@media screen and (min-width: 800px) {
 		.arrows2 {
 			position: absolute;
-			top: 26vh; left: 3vw;
+			top: 24vh; left: 3vw;
 		}
 	}
 	@media screen and (min-width: 1200px) {
 		.arrows2 {
 			position: absolute;
-			top: 26vh; left: 8vw;
+			top: 24vh; left: 8vw;
 		}
 	}
 	@media screen and (min-width: 1500px) {
 		.arrows2 {
 			position: absolute;
-			top: 28vh; left: 9vw;
+			top: 26vh; left: 9vw;
 		}
 	}
 
@@ -286,6 +286,7 @@ text-transform: uppercase;
 .section4 {
 	background-color: #e02ce3;
 	color: #ffffff;
+	position: relative;
 }
 
 .section4body{
@@ -373,6 +374,9 @@ padding-bottom: 1vh;
 .section5 {
 	background-color: #000000;
 	color: #ffffff;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	position: relative;
 }
 
 .headline5{
@@ -390,7 +394,7 @@ text-transform: uppercase;
 	padding-right: 0.5%;
 	padding-left: 10.5%;
 	padding-top: 0.5%;
-	padding-bottom: 0.5%;
+	padding-bottom: 2%;
 	display: inline-flex;
 	}
 
@@ -412,6 +416,17 @@ line-height: 92%;
 font-family: Inter;
 font-size: 12px;
 font-weight: 400;
+display: flex;
+flex-direction: row;
+max-width: 75vw;
+margin-left: 30vw;
+gap: 10vw;
+justify-content: space-between;
+}
+
+.section5content {
+	position: relative;
+	top: 4.25vh; left: -10vw;
 }
 
 .outline{
@@ -484,7 +499,7 @@ font-weight: 400;
 
 .section7wrap {
 	width: 100%;
-	text-align: justify;
+	text-align: center;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-between;
