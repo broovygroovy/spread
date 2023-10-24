@@ -385,6 +385,7 @@ font-size: 135px;
 font-weight: 500;
 line-height: 90%;
 text-transform: uppercase;
+margin-left: 10vw;
 }
 
 .arrows5 {
@@ -403,6 +404,9 @@ font-family: Pixelify Sans;
 font-size: 35px;
 font-style: normal;
 font-weight: 400;
+position: relative;
+bottom: 102vh; right: -4vw;
+transform: rotate(270deg)
 }
 
 .fuck{
@@ -410,6 +414,9 @@ font-family: Big Shoulders Text;
 font-size: 75px;
 font-weight: 900;
 line-height: 92%;
+position: relative;
+bottom: 80vh; right: 38.5vw;
+transform: rotate(270deg);
 }
 
 .section5body{
@@ -419,8 +426,8 @@ font-weight: 400;
 display: flex;
 flex-direction: row;
 max-width: 75vw;
-margin-left: 30vw;
-gap: 10vw;
+margin-left: 20vw;
+gap: 5vw;
 justify-content: space-between;
 }
 
