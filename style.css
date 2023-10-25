@@ -8,7 +8,6 @@
 body {
 	overflow: hidden;
 	overflow-y: scroll;
-
 }
 
 header {
@@ -445,8 +444,8 @@ text-transform: uppercase;
 }
 
 .section6 {
-	background-image: linear-gradient(#FD43B3, #00C2FF, #75F85E);
-	border-radius: 600px;
+	background-image: linear-gradient( #FD43B3, #00C2FF, #75F85E);
+	border-radius: 0%;
 	box-shadow: 10px 10px 15px 30px white inset;
 	color: #000000;
 	position: relative;
