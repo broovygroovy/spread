@@ -26,12 +26,12 @@ h1 {
 	text-transform: uppercase;
 	text-align: left;
 	max-height: 60px;
-	max-width: 500px;
+	max-width: 490px;
 	padding-left: 2vh;
 	position: relative;
 	/* top: 35vh; right: 39vw; */
 	/* top: -70vh; left: -100vh; */
-	bottom: -27.5vh; left: -195px;
+	bottom: -24.5vh; left: -173px;
 	transform: rotate(262deg);
 }
 
@@ -49,6 +49,7 @@ h1 {
 	margin-left: 25vw;
 	width: 70vw;
 	background-color: #75F85E;
+	margin-top: -3.9vh;
 }
 
 .section1cover:not(.coverheading) {
@@ -203,10 +204,10 @@ margin-left: 89vw;
 }
 @media screen and (max-width: 1299px) {
 	.readbox {
-		margin-left: 83vw;
+		margin-left: 82vw;
 	}
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
 	.readbox {
 		margin-left: 78vw;
 	}
@@ -612,31 +613,68 @@ font-family: Brand;
 font-size: 95px;
 font-weight: 400;
 line-height: 110%;
+margin-left: 14vw;
 position: relative;
-top: 2vh; left: 30vw;
+top: 2vh;
 }
-.quote6 {
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-weight: 600;
-line-height: 135%;
-text-transform: uppercase;
-position: relative;
-top: 1vh; left: -20vw;
-margin-top: 10vh;
-margin-bottom: 30vh;
 
+.quote6 {
+	text-align: left;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 135%;
+	text-transform: uppercase;
+	position: relative;
+	left: 17vw;
+	margin-top: 10vh;
+	margin-bottom: 30vh;
+	}
+
+@media screen and (max-width: 700px) {
+	.headline6 {
+		font-size: 60px;
+	}
+	.quote6 {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.headline6 {
+		font-size: 36px;
+		margin-left: 17vw;
+	}
+	.quote6 {
+		max-width: 45vw;
+		margin-left: 22vw;
+	}
 }
 
 .section6body{
 font-family: Inter;
-font-size: 12px;
+font-size: 16px;
 font-weight: 400;
 max-width: 55ch;
 position: relative;
-bottom: 15vh; left: 50vw;
-transform: rotate(270deg)
+bottom: 15vh; left: 60vw;
+}
+
+@media screen and (max-width: 500px) {
+	.section6body {
+		font-size: 14px;
+		position: relative;
+		bottom: 15vh; left: 17vw;
+		max-width: 72vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.section6body {
+		font-size: 16px;
+		max-width: 55ch;
+		position: relative;
+		bottom: 15vh; left: 60vw;
+	}
 }
 
 .section7 {
