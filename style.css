@@ -270,22 +270,7 @@ margin-left: 89vw;
 
 
 
-.section3 {
-	background-color: #ffffff;
-	color: #000000;
-	text-align: center;
-	font-family: Inter;
-	font-size: 12px;
-	font-style: normal;
-	font-weight: 400;
-}
-.repeating{ 
-color: #30F;
-font-family: Big Shoulders Display;
-font-size: 75px;
-font-weight: 700;
-text-transform: uppercase;
-}
+
 
 .section4 {
 	background-color: #e02ce3;
@@ -310,6 +295,211 @@ justify-content: space-between;
 	}
 }
 
+.desktop {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+  }
+  
+  .desktop .overlap-wrapper {
+	background-color: #ffffff;
+	width: 1280px;
+	height: 1174px;
+  }
+  
+  .desktop .overlap {
+	position: relative;
+	top: 166px;
+	left: 131px;
+	width: 1017px;
+	height: 839px;
+  }
+  
+  .desktop .overlap-group {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1017px;
+	height: 839px;
+  }
+  
+  .desktop .the-problem-is-one {
+	position: absolute;
+	width: 839px;
+	height: 113px;
+	top: 363px;
+	left: 520px;
+	transform: rotate(90deg);
+	font-family: Big Shoulders Display;
+	font-weight: 700;
+	color: #3300ff;
+	font-size: 74px;
+	text-align: center;
+  }
+  
+  .desktop .text-wrapper {
+	width: 839px;
+	height: 113px;
+	top: 363px;
+	left: -363px;
+	transform: rotate(90deg);
+	color: #3300ff;
+	font-size: 74px;
+	position: absolute;
+	font-family: Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .div {
+	width: 595px;
+	height: 80px;
+	top: 379px;
+	left: 532px;
+	transform: rotate(90deg);
+	color: #3300ff66;
+	font-size: 52.5px;
+	position: absolute;
+	font-family: Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .p {
+	width: 595px;
+	height: 80px;
+	top: 379px;
+	left: -109px;
+	transform: rotate(90deg);
+	color: #3300ff66;
+	font-size: 52.5px;
+	position: absolute;
+	font-family: Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .the-problem-is-one-2 {
+	width: 398px;
+	height: 54px;
+	top: 393px;
+	left: 528px;
+	transform: rotate(90deg);
+	color: #3300ff1a;
+	font-size: 35.1px;
+	position: absolute;
+	font-family: Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .is-one-of-content {
+	position: absolute;
+	width: 398px;
+	height: 54px;
+	top: 470px;
+	left: 100px;
+	transform: rotate(90deg);
+	font-family: Big Shoulders Display;
+	font-weight: 700;
+	color: #3300ff1a;
+	font-size: 35.1px;
+	text-align: center;
+  }
+  
+  .desktop .text-wrapper-2 {
+	position: absolute;
+	width: 177px;
+	height: 136px;
+	top: 356px;
+	left: 424px;
+	font-family:Inter;
+	font-weight: 400;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+  }
+  
+  .desktop .the-problem-is-one-3 {
+	width: 839px;
+	height: 113px;
+	top: 0;
+	left: 89px;
+	color: #3300ff;
+	font-size: 74px;
+	position: absolute;
+	font-family: Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .the-problem-is-one-4 {
+	width: 839px;
+	height: 113px;
+	top: 726px;
+	left: 89px;
+	color: #3300ff;
+	font-size: 74px;
+	position: absolute;
+	font-family:Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .the-problem-is-one-5 {
+	width: 595px;
+	height: 80px;
+	top: 122px;
+	left: 211px;
+	color: #3300ff66;
+	font-size: 52.5px;
+	position: absolute;
+	font-family: Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .the-problem-is-one-6 {
+	width: 595px;
+	height: 80px;
+	top: 637px;
+	left: 211px;
+	color: #3300ff66;
+	font-size: 52.5px;
+	position: absolute;
+	font-family:Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .the-problem-is-one-7 {
+	width: 398px;
+	height: 54px;
+	top: 271px;
+	left: 299px;
+	transform: rotate(-14.79deg);
+	color: #3300ff1a;
+	font-size: 35.1px;
+	position: absolute;
+	font-family:Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
+  
+  .desktop .the-problem-is-one-8 {
+	width: 398px;
+	height: 54px;
+	top: 565px;
+	left: 314px;
+	color: #3300ff1a;
+	font-size: 35.1px;
+	position: absolute;
+	font-family:Big Shoulders Display;
+	font-weight: 700;
+	text-align: center;
+  }
 
 .section4body p {
 	padding-right: 5vw;
@@ -771,3 +961,358 @@ bottom: 15vh; left: 60vw;
 		flex-direction: column;
 	}
 }
+
+.desktoplast {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+  }
+  
+  .desktoplast .div {
+	background-color: #ffffff;
+	overflow: hidden;
+	width: 1280px;
+	height: 972px;
+	position: relative;
+  }
+  
+  .desktoplast .overlap {
+	position: absolute;
+	width: 1342px;
+	height: 1049px;
+	top: -29px;
+	left: -489px;
+  }
+  
+  .desktoplast .text-wrapper {
+	position: absolute;
+	width: 306px;
+	top: 438px;
+	left: 976px;
+	font-family: Inria Serif;
+	font-weight: 400;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+  }
+  
+  .desktoplast .rectangle {
+	width: 427px;
+	height: 322px;
+	top: 356px;
+	left: 489px;
+	background-color: #ad99ff;
+	border-color: #000000;
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .one-of-content {
+	position: absolute;
+	width: 918px;
+	height: 124px;
+	top: 312px;
+	left: 0;
+	font-family:Big Shoulders Display;
+	font-weight: 700;
+	color: #3300ff;
+	font-size: 81px;
+	text-align: right;
+  }
+  
+  .desktoplast .rectangle-2 {
+	width: 426px;
+	height: 323px;
+	top: 33px;
+	left: 916px;
+	background-color: #75f85e;
+	border-color: #000000;
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .rectangle-3 {
+	width: 426px;
+	height: 322px;
+	top: 356px;
+	left: 916px;
+	border-color: #000000;
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .rectangle-4 {
+	width: 426px;
+	height: 323px;
+	top: 678px;
+	left: 916px;
+	background-color: #000000;
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .rectangle-5 {
+	width: 427px;
+	height: 323px;
+	top: 33px;
+	left: 489px;
+	background-color: #ffffff;
+	border-color: #000000;
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .p {
+	position: absolute;
+	width: 303px;
+	top: 101px;
+	left: 551px;
+	font-family:Inria Serif;
+	font-weight: 400;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .desktoplast .ENT-CON {
+	position: absolute;
+	top: 793px;
+	left: 928px;
+	-webkit-text-stroke: 0.88px #ffffff;
+	font-family: Big Shoulders Text;
+	font-weight: 400;
+	color: transparent;
+	font-size: 118.5px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 142.5px;
+	white-space: nowrap;
+  }
+  
+  .desktoplast .span {
+	font-weight: 100;
+	color: #ffffff;
+  }
+  
+  .desktoplast .text-wrapper-2 {
+	font-family: Big Shoulders Text;
+	font-weight: 900;
+	color: #ffffff;
+  }
+  
+  .desktoplast .rectangle-6 {
+	width: 427px;
+	height: 323px;
+	top: 678px;
+	left: 489px;
+	background-color: #ffffff;
+	border-color: #000000;
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .gradient {
+	top: 719px;
+	left: 400px;
+	position: absolute;
+	width: 330px;
+	height: 330px;
+  }
+  
+  .desktoplast .overlap-group {
+	position: relative;
+	height: 330px;
+	border-radius: 165px;
+  }
+  
+  .desktoplast .eclipse {
+	position: absolute;
+	width: 248px;
+	height: 248px;
+	top: 42px;
+	left: 60px;
+	border-radius: 123.9px;
+	filter: blur(20px);
+	background: linear-gradient(
+	  180deg,
+	  rgb(252.88, 67.43, 178.7) 14.06%,
+	  rgb(0, 193.8, 255) 70.31%,
+	  rgb(117, 248, 94) 100%
+	);
+  }
+  
+  .desktoplast .micheal-ROCK {
+	position: absolute;
+	top: 747px;
+	left: 583px;
+	-webkit-text-stroke: 0.54px #000000;
+	font-family: Brand;
+	font-weight: 400;
+	color: #000000;
+	font-size: 75.5px;
+	letter-spacing: 0;
+	line-height: 82.9px;
+  }
+  
+  .desktoplast .rectangle-7 {
+	width: 89px;
+	height: 309px;
+	top: 41px;
+	left: 966px;
+	background-color: #ffffff;
+	border-color: #000000;
+	transform: rotate(19.46deg);
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .rectangle-8 {
+	width: 89px;
+	height: 305px;
+	top: 43px;
+	left: 1105px;
+	background-color: #ffffff;
+	border-color: #000000;
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .text-wrapper-3 {
+	position: absolute;
+	width: 373px;
+	height: 113px;
+	top: 138px;
+	left: 824px;
+	transform: rotate(-70.59deg);
+	font-family:Inter;
+	font-weight: 400;
+	color: #000000;
+	font-size: 65px;
+	text-align: center;
+	line-height: 68.3px;
+  }
+  
+  .desktoplast .overlap-2 {
+	position: absolute;
+	width: 427px;
+	height: 323px;
+	top: 4px;
+	left: 853px;
+	background-color: #3300ff;
+	border: 1px solid;
+	border-color: #000000;
+  }
+  
+  .desktoplast .text-wrapper-4 {
+	width: 21px;
+	height: 25px;
+	top: 119px;
+	left: 125px;
+	transform: rotate(-180deg);
+	font-family:Pixelify Sans;
+	color: #ffffff;
+	font-size: 100px;
+	text-align: center;
+	letter-spacing: 30px;
+	line-height: 15.1px;
+	position: absolute;
+	font-weight: 400;
+  }
+  
+  .desktoplast .text-wrapper-5 {
+	width: 21px;
+	height: 25px;
+	top: 119px;
+	left: 222px;
+	transform: rotate(-180deg);
+	font-family: Pixelify Sans;
+	color: #ffffff;
+	font-size: 100px;
+	text-align: center;
+	letter-spacing: 30px;
+	line-height: 15.1px;
+	position: absolute;
+	font-weight: 400;
+  }
+  
+  .desktoplast .text-wrapper-6 {
+	width: 21px;
+	height: 25px;
+	top: 119px;
+	left: 316px;
+	transform: rotate(-180deg);
+	font-family: Pixelify Sans;
+	color: #000000;
+	font-size: 100px;
+	text-align: center;
+	letter-spacing: 30px;
+	line-height: 15.1px;
+	position: absolute;
+	font-weight: 400;
+  }
+  
+  .desktoplast .element-wrapper {
+	position: absolute;
+	width: 427px;
+	height: 322px;
+	top: 327px;
+	left: 853px;
+	background-color: #df2be3;
+	border: 1px solid;
+	border-color: #000000;
+  }
+  
+  .desktoplast .element {
+	top: 43px;
+	left: 88px;
+	-webkit-text-stroke: 6.12px #000000;
+	background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(248.63, 193.93, 0) 100%);
+	-webkit-background-clip: text !important;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-emphasis-color: transparent;
+	font-family: Oi;
+	color: transparent;
+	font-size: 122.8px;
+	letter-spacing: 0;
+	line-height: 112.5px;
+	position: absolute;
+	font-weight: 400;
+  }
+  
+  .desktoplast .overlap-3 {
+	position: absolute;
+	width: 427px;
+	height: 327px;
+	top: 649px;
+	left: 853px;
+  }
+  
+  .desktoplast .rectangle-9 {
+	width: 427px;
+	height: 323px;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+	border-color: #000000;
+	position: absolute;
+	border: 1px solid;
+  }
+  
+  .desktoplast .in-this-way-we-build {
+	position: absolute;
+	width: 306px;
+	top: 61px;
+	left: 61px;
+	font-family: Inria Serif;
+	font-weight: 400;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
