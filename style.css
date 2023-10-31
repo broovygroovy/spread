@@ -1330,3 +1330,57 @@ bottom: 15vh; left: 60vw;
 	position: absolute;
 	border: 1px solid;
   } */
+
+
+  @media print {
+	.section1cover {
+		background-color: #ffffff;
+	}
+	.section2 {
+		background-color: #ffffff;
+		color: #000000;
+	}
+	.section2 {
+		border-color: #000000;
+	}
+	.reading {
+		border-color: #000000;
+	}
+	.readbox {
+		border-color: #000000;
+	}
+	
+	.section4 {
+		background-color: #ffffff;
+		color: #000000;
+	.headline4 {
+		color: #A9A9A9;
+	}
+	.headline4_2 {
+		color: #A9A9A9;
+	}
+	.section5 {
+		background-color: #ffffff;
+		color: #000000;
+	}
+	.section6 {
+		background-image: linear-gradient(#A9A9A9, #ffffff);
+		border-radius: 0%
+		box-shadow: 10px 10px 15px 30px white inset;
+	}
+	.section7 {
+		background-color: #ffffff;
+		color: #000000;
+	}
+	.section7contentbar {
+		color: #A9A9A9;
+		border-color: #A9A9A9;
+	}
+	.section7fuckbar {
+		color: #A9A9A9;
+		border-color: #A9A9A9;
+	}
+	.section7body {
+		color: #000000;
+	}
+}
