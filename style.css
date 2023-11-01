@@ -3,14 +3,12 @@
 	font-family: 'Brand';
 	src: url('../spread/font/Brand.otf');
 }
-/* ../ specifies root file in github */
 
 
 header {
 	background-color: #ffffff;
 	color: #000000;
 	font-family: Inter;
-	/* display: flex; */
 	position: relative;
 }
 
@@ -33,8 +31,6 @@ body {
 	max-width: 490px;
 	padding-left: 2vh;
 	position: relative;
-	/* top: 35vh; right: 39vw; */
-	/* top: -70vh; left: -100vh; */
 	bottom: -24.5vh; left: -173px;
 	transform: rotate(262deg);
 }
@@ -113,17 +109,6 @@ body {
 	text-transform: uppercase;
 	font-size: 12px;
 }
-
-/* .section1right {
-	text-transform: uppercase;
-	transform: rotate(90deg);
-	position: absolute;
-	left: 96vw; top: 10vh;
-	display: flex;
-	justify-content: space-between;
-} */
-
-/* cannot get to work yet, can add in if we get everything else working */
 
 .section1 {
 	max-height: 150px;
@@ -360,11 +345,6 @@ body {
 	height: 330px;
   }
   
-/* .overlap-group {
-	position: relative;
-	height: 330px;
-	border-radius: 165px;
-  } */
   
 .eclipse {
 	position: absolute;
@@ -383,9 +363,7 @@ body {
   }
 
   @media screen and (min-width: 450px) {
-	/* .first-grid-item:nth-child(1) {
-		font-size: 26px;
-	} */
+
 	.gradient {
 		top: 20%;
 		left: -10%;
@@ -402,9 +380,7 @@ body {
 	}
   }
   @media screen and (min-width: 600px) {
-	/* .first-grid-item:nth-child(1) {
-		font-size: 38px;
-	} */
+
 	.first-grid-item:nth-child(1) p {
 		position: relative;
 		top: 30%;
@@ -1498,138 +1474,6 @@ bottom: 15vh; right: -20vw;
 		flex-direction: column;
 	}
 }
-/* 
-.desktoplast {
-	background-color: #ffffff;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	width: 100%;
-  }
-  
-  .desktoplast .div {
-	background-color: #ffffff;
-	overflow: hidden;
-	width: 1280px;
-	height: 972px;
-	position: relative;
-  }
-  
-  .desktoplast .overlap {
-	position: absolute;
-	width: 1342px;
-	height: 1049px;
-	top: -29px;
-	left: -489px;
-  }
-  
-  .desktoplast .text-wrapper {
-	position: absolute;
-	width: 306px;
-	top: 438px;
-	left: 976px;
-	font-family: Inria Serif;
-	font-weight: 400;
-	color: #000000;
-	font-size: 18px;
-	text-align: center;
-  }
-  
-  
-  .desktoplast .rectangle-2 {
-	width: 426px;
-	height: 323px;
-	top: 33px;
-	left: 916px;
-	background-color: #75f85e;
-	border-color: #000000;
-	position: absolute;
-	border: 1px solid;
-  }
-
-  
-  .desktoplast .rectangle-5 {
-	width: 427px;
-	height: 323px;
-	top: 33px;
-	left: 489px;
-	background-color: #ffffff;
-	border-color: #000000;
-	position: absolute;
-	border: 1px solid;
-  }
-  
-  .desktoplast .p {
-	position: absolute;
-	width: 303px;
-	top: 101px;
-	left: 551px;
-	font-family:Inria Serif;
-	font-weight: 400;
-	color: #000000;
-	font-size: 18px;
-	text-align: center;
-	letter-spacing: 0;
-	line-height: normal;
-  }
-
-  
-
-  
-  .desktoplast .text-wrapper-3 {
-	position: absolute;
-	width: 373px;
-	height: 113px;
-	top: 138px;
-	left: 824px;
-	transform: rotate(-70.59deg);
-	font-family:Inter;
-	font-weight: 400;
-	color: #000000;
-	font-size: 65px;
-	text-align: center;
-	line-height: 68.3px;
-  }
-  
-  
-  .desktoplast .overlap-3 {
-	position: absolute;
-	width: 427px;
-	height: 327px;
-	top: 649px;
-	left: 853px;
-  }
-  
-  .desktoplast .rectangle-9 {
-	width: 427px;
-	height: 323px;
-	top: 0;
-	left: 0;
-	background-color: #ffffff;
-	border-color: #000000;
-	position: absolute;
-	border: 1px solid;
-  }
-  
-   .desktoplast .rectangle-3 {
-	width: 426px;
-	height: 322px;
-	top: 356px;
-	left: 916px;
-	border-color: #000000;
-	position: absolute;
-	border: 1px solid;
-  }
-  
-  .desktoplast .rectangle-4 {
-	width: 426px;
-	height: 323px;
-	top: 678px;
-	left: 916px;
-	background-color: #000000;
-	position: relative;
-	border: 1px solid;
-  } */
 
   .desktoplast {
 	background-color: #ffffff;
@@ -1865,7 +1709,6 @@ bottom: 15vh; right: -20vw;
 		left: -175%;
 	}
   }
-/* BLUE GRID SECTION R1C3 needs responsive */
 
   .grid-item:nth-child(3) {
 	background-color: #3300ff;
@@ -2085,13 +1928,6 @@ bottom: 15vh; right: -20vw;
 	width: 330px;
 	height: 330px;
   }
-  
-/* .overlap-group {
-	position: relative;
-	height: 330px;
-	border-radius: 165px;
-  } */
-  
 .eclipse {
 	position: absolute;
 	width: 200px;
@@ -2443,4 +2279,24 @@ bottom: 15vh; right: -20vw;
 		top: 0;
 		left: -5%;
 	  }
+}
+
+.bgcolor {
+	animation: changeBackgroundColor 7s infinite;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: #001F3F;
+  }
+25%{    background-color: #43cea2;}
+
+  50% {
+    background-color: #FF4136;
+  }
+70%{
+    background-color: #ffb347;}
+  100% {
+    background-color: #001F3F;
+  }
 }
